@@ -42,11 +42,11 @@ spec:
 
       # persistent volume claim templates
       volumeClaimTemplates:
-      - metadata:
-          name: my-pvc
-        spec:
-          accessModes: 
-            - ReadWriteOnce
-          resources:
-            requests:
-              storage: 2Gi 
+        - metadata:
+            name: my-pvc
+          spec:
+            accessModes: 
+              - ReadWriteOnce
+            resources:
+              requests:
+                storage: 2Gi 
